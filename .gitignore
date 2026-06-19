@@ -1,0 +1,86 @@
+# ==========================================
+# Prerequisites and Temporary Files
+# ==========================================
+*.d
+*.i
+*.s
+
+# Compiled Object Files
+*.o
+*.obj
+*.slo
+*.lo
+
+# Precompilated Headers
+*.gch
+*.pch
+
+# Dynamic and Static Libraries
+*.lib
+*.a
+*.la
+*.lai
+*.dll
+*.so
+*.dylib
+
+# Final Executables
+*.exe
+*.out
+*.app
+*.pdb
+
+# ==========================================
+# IDE Specific Directories
+# ==========================================
+
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.filters
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cache
+*.ilk
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# ==========================================
+# CMake
+# ==========================================
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+build/
+
+# ==========================================
+# Windows Specific Files
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
